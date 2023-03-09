@@ -1,0 +1,74 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "aa zz ee"
+      "r t y"
+      "u i o";
+  }
+  
+  .aa { grid-area: aa; 
+    background-color: #d40808;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;}
+  
+  .zz { grid-area: zz;
+    background-color: #0E00F0;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;}
+  
+  .ee { grid-area: ee;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;}
+  
+  .r { grid-area: r;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px; }
+  
+  .t { grid-area: t;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px; }
+  
+  .y { grid-area: y;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px; }
+  
+  .u { grid-area: u;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px; }
+  
+  .i { grid-area: i;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px; }
+  
+  .o { grid-area: o;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px; }
+  
